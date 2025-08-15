@@ -1,6 +1,6 @@
 public static class HelloFunction
 {
-    [FunctionName("HelloFunction")]
+    [FunctionName("HelloFunction modified")]
     public static async Task<IActionResult> Run(
         [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
         ILogger log)
